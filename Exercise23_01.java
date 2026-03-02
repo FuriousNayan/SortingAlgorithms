@@ -41,10 +41,10 @@ public class Exercise23_01 {
                 E currentElement = list[i]; 
                 int k = i - 1;
 
-            while (k >= 0 && list[k].compareTo(currentElement) > 0) {
-                list[k + 1] = list[k];  
-                k--;
-            }
+                while (k >= 0 && list[k].compareTo(currentElement) > 0) {
+                    list[k + 1] = list[k];  
+                    k--;
+                }
 
             list[k + 1] = currentElement;
         }
@@ -60,10 +60,10 @@ public class Exercise23_01 {
                 E currentElement = list[i];  
                 int k = i - 1;
 
-            while (k >= 0 && comparator.compare(list[k], currentElement) > 0) {
-                list[k + 1] = list[k]; 
-                k--;
-            }
+                while (k >= 0 && comparator.compare(list[k], currentElement) > 0) {
+                    list[k + 1] = list[k]; 
+                    k--;
+                }
 
             list[k + 1] = currentElement;
         }
