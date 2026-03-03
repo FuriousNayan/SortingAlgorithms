@@ -23,7 +23,6 @@
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.lang.reflect.Array;
 
 public class Exercise23_02 {
 
